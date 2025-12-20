@@ -35,3 +35,32 @@
     cursor: pointer;
     gap: 3px;
 }
+
+.nav-menu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    background: #ff4141;
+
+}
+
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+
+}
+
+.nav-login-cart button{
+    width: 157px;
+    height: 58px;
+    outline: none;
+    border: 1px solid #7a7a7a;
+    border-radius: 75px;
+    color: #515151;
+    font-size: 20px;
+    font-weight: 500;
+    background: white;
+    cursor: pointer;
+
+}
