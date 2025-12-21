@@ -17,6 +17,12 @@
     font-weight: 600;
 }
 
+.logo-image {
+    width: 120px;       
+    height: 120px; 
+    object-fit: contain;  
+}
+
 .nav-menu{
     display: flex;
     align-items: center;
@@ -49,6 +55,11 @@
     align-items: center;
     gap: 45px;
 
+}
+.cart-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
 
 .nav-login-cart button{
