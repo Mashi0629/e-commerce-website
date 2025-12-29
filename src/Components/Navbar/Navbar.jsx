@@ -2,7 +2,7 @@
 import React from 'react';
 import { useState } from 'react';
 import './Navbar.css';
-import logo from '../Assets/logo.jpg'
+import logo from '../Assets/logo.png'
 import cart_icon from '../Assets/cart.png'
 import { Link } from 'react-router-dom';
 
