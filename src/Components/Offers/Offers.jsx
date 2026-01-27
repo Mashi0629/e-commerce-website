@@ -1,6 +1,7 @@
 
 import React from 'react';
 import './Offers.css';
+import exclusiveImage1 from '../Assets/exclusiveImage1.jpg';
 
 
 const Offers = (props) => {
@@ -14,6 +15,8 @@ const Offers = (props) => {
 
             </div>
             <div className="offers-right">
+                <img src={exclusiveImage1} alt="Exclusive Offer"/>
+                
                 
 
             </div>
