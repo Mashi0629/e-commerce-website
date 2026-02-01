@@ -7,7 +7,18 @@ const NewCollections = (props) => {
            <h1>New Collections</h1>
            <hr />
            <div className="collections">
-            {new_collection_1.localeCompare((item,index)=>{)}
+            {new_collection_1.map((item,i)=>{
+                return 
+                <Item 
+                  key={item.id}
+                  id={item.id}
+                  name={item.name}
+                  img={item.img}
+                  new_price={item.new_price}
+                  old_price={item.old_price}
+                />
+
+            })}
 
            </div>
 
